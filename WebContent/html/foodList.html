@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>菜品列表</title>
+    <link href="../css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="list">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- 图片 固定宽度 -->
+                <div class="img col-xs-3">
+                    <img src="../imgs/1.jpg" alt=""/>
+                </div>
+                <div class="food_info col-xs-7">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <!-- 菜品名称 -->
+                            <div class="food_name"></div>
+                            <!-- 库存数量 -->
+                            <div class="food_stock"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- 价格 -->
+                        <div class="food_price">
+                            <span class="price"></span>元
+                        </div>
+                        <!-- 操作 -->
+                        <div class="action">
+                            <!-- 减少 -->
+                            <div class="subtract">
+                                <img src="" alt=""/>
+                            </div>
+                            <!-- 数量 -->
+                            <div class="food_count"></div>
+                            <!-- 增加 -->
+                            <div class="add">
+                                <img src="" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="../js/zepto.js"></script>
+<script src="../js/icheck.min.js"></script>
+<script src="../js/foodList.js"></script>
+</body>
+</html>
